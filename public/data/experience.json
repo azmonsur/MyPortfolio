@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "CSS",
+    "level": "Experienced",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 2,
+    "name": "HTML",
+    "level": "Experienced",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "level": "Experienced",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "level": "Experienced",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 5,
+    "name": "React Native",
+    "level": "Intermediate",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 6,
+    "name": "PHP",
+    "level": "Intermediate",
+    "category": "Backend Development"
+  },
+  {
+    "id": 7,
+    "name": "SQL",
+    "level": "Experienced",
+    "category": "Backend Development"
+  },
+  {
+    "id": 8,
+    "name": "Nodejs",
+    "level": "Experienced",
+    "category": "Backend Development"
+  },
+  {
+    "id": 9,
+    "name": "Python",
+    "level": "Experienced",
+    "category": "Others"
+  },
+  {
+    "id": 10,
+    "name": "Pandas",
+    "level": "Experienced",
+    "category": "Data Analysis/Science"
+  },
+  {
+    "id": 11,
+    "name": "Matplotlib",
+    "level": "Experienced",
+    "category": "Data Analysis/Science"
+  },
+  {
+    "id": 12,
+    "name": "Numpy",
+    "level": "Experienced",
+    "category": "Data Analysis/Science"
+  },
+  {
+    "id": 13,
+    "name": "Seaborn",
+    "level": "Experienced",
+    "category": "Data Analysis/Science"
+  },
+  {
+    "id": 14,
+    "name": "SKLearn",
+    "level": "Intermediate",
+    "category": "Data Analysis/Science"
+  },
+
+  {
+    "id": 15,
+    "name": "MongoDB",
+    "level": "Experienced",
+    "category": "Backend Development"
+  }
+]

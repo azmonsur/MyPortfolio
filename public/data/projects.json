@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Laundry Management System",
+    "desc": "An ERP web-based app for managing laundry's daily activities",
+    "img": "lms.jpeg",
+    "type": "Web Software",
+    "github_link": "",
+    "other_link": "",
+    "complete": true
+  },
+  {
+    "id": 2,
+    "name": "Chat App",
+    "desc": "A chatting app built with socket.io and Nodejs",
+    "img": "chatly.jpeg",
+    "type": "Web Software",
+    "github_link": "",
+    "other_link": "",
+    "complete": true
+  },
+  {
+    "id": 2,
+    "name": "Nairaland360",
+    "desc": "Data science project that analysis data extracted from a forum site",
+    "img": "nairaland360.jpeg",
+    "type": "Data science",
+    "github_link": "",
+    "other_link": "",
+    "complete": true
+  },
+  {
+    "id": 2,
+    "name": "Outlier Detector",
+    "desc": "A data science project to detect outliers in a given dataset",
+    "img": "outlier_detector.jpeg",
+    "type": "Data Analysis",
+    "github_link": "",
+    "other_link": "",
+    "complete": true
+  },
+  {
+    "id": 2,
+    "name": "Resume Scanner",
+    "desc": "",
+    "img": "lms.jpeg",
+    "type": "Web Software",
+    "github_link": "",
+    "other_link": "",
+    "complete": false
+  }
+]

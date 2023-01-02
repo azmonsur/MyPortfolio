@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Web Development",
+    "services": [
+      "Frontend design",
+      "Build web APIs",
+      "Tutor students JavaScript",
+      "Tutor students on HTML and CSS"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Data Engineering",
+    "services": [
+      "Scrape websites to extract data",
+      "Build reports from avaialbale data",
+      "Write Advanced SQL queries",
+      "Data Warehousing",
+      "Build ETL packages",
+      "Create charts with Python rich libraries for visualization",
+      "Perform exploratory analysis on class sample"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Others",
+    "services": [
+      "Tutor students on fundamental of Programing with Python",
+      "Automate tasks with Python scripts",
+      "Write Advanced SQL queries",
+      "Perform tweaks on Windows OS to tackle difficult tasks"
+    ]
+  }
+]

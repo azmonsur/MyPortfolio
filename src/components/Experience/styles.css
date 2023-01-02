@@ -1,0 +1,67 @@
+.experience-wrapper .section-main-content {
+  margin-top: 20px;
+}
+
+.experience-wrapper .section-main-content .each-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  row-gap: 20px;
+}
+
+.experience-wrapper .section-main-content .each-category h6 {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--primary);
+}
+
+.experience-wrapper .section-main-content .each-category > div {
+  padding: 10px 20px 20px;
+  heiht: 40vh !important;
+  border: 1px solid var(--grey);
+  background-color: var(--accent);
+  border-radius: 10px;
+  transition: all 0.3s linear;
+
+  /* transform: scale(1.1) rotateZ(2deg); */
+  border-bottom-width: 15px;
+}
+
+.experience-wrapper .section-main-content .each-category > div:hover {
+  transform: scale(1.2) rotateX(40deg);
+  border-bottom-color: var(--danger);
+}
+
+.experience-wrapper .section-main-content .each-experience {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+.experience-wrapper .section-main-content .each-experience > div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+
+.experience-wrapper .section-main-content .each-experience .name-level {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+}
+
+.experience-wrapper
+  .section-main-content
+  .each-experience
+  .name-level
+  span:nth-child(2) {
+  font-size: 0.65rem;
+  color: var(--grey);
+}

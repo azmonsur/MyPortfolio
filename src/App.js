@@ -1,7 +1,12 @@
-import "./App.css";
+import React from "react";
+import MyPortfolio from "./components/MyPortfolio";
 
 function App() {
-  return <div className="App">My Portfolio</div>;
+  return (
+    <div className="App">
+      <MyPortfolio />
+    </div>
+  );
 }
 
 export default App;

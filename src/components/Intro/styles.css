@@ -1,0 +1,189 @@
+.intro {
+  margin-top: 30px;
+}
+
+.intro h1 {
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 5rem;
+  padding: 0 !important;
+}
+
+.intro .more-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.intro .more-details .hello {
+  font-size: 0.8rem;
+}
+
+.intro .more-details .name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.intro .more-details .profession {
+  font-size: 0.8rem;
+  color: rgba(197, 191, 191, 0.5);
+}
+
+.intro .more-details .cv {
+  margin-top: 10px;
+  display: flex;
+  column-gap: 10px;
+  font-size: 0.9rem;
+}
+
+.intro .more-details .cv > div {
+  border: solid 1px var(--primary);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.intro .more-details .cv > div:hover {
+  border: solid 1px var(--danger);
+  color: var(--danger);
+}
+
+.intro .image-others {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px;
+}
+
+.intro .image-others > div:nth-child(1) {
+  flex: 2;
+  background-color: var(--danger);
+}
+
+.intro .image-others > div:nth-child(2) {
+  flex: 5;
+  background-color: gren;
+}
+
+.intro .image-others .my-image-wrapper {
+  transform: rotateZ(0deg);
+  border-radius: 30px;
+  height: 45vh;
+}
+
+.intro .image-others .image {
+  height: 100%;
+  transform: rotateZ(10deg);
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--transparent-dark),
+    var(--secondary),
+    var(--gray),
+    var(--primary),
+    var(--accent)
+  );
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.intro .image-others .my-image {
+  width: 100%;
+  height: 100%;
+  transition: all 3s linear;
+}
+
+.intro .image-others .circles {
+  position: relative;
+}
+
+.intro .image-others .circles .outer-circle {
+  width: 20vmin;
+  height: 20vmin;
+  background-color: var(--grey);
+  border-radius: 50%;
+  position: absolute !important;
+  font-size: 0.7rem;
+}
+
+.intro .image-others .circles > div:nth-child(1) {
+  margin-left: 300px;
+  margin-top: -20px;
+}
+
+.intro .image-others .circles > div:nth-child(2) {
+  right: 60%;
+  top: 5%;
+  transform: scale(1.5);
+  background-color: var(--danger);
+}
+
+.intro .image-others .circles > div:nth-child(3) {
+  right: 34%;
+  top: 30%;
+  transform: scale(1.2);
+}
+
+.intro .image-others .circles > div:nth-child(4) {
+  right: 15%;
+  top: 60%;
+  background-color: var(--off-white);
+}
+
+.intro .image-others .circles .inner-circle {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+  border-radius: 50%;
+  transform: scale(0.9);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.intro .image-others .my-image:hover {
+  transform: scale(1.2);
+}
+
+/*=========================================================MEDIA QUERY====================================================*/
+@media (max-width: 992px) {
+  .intro .image-others {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+  }
+
+  .intro .image-others > div:nth-child(1) {
+    flex: none;
+    width: 40%;
+  }
+
+  .intro .image-others > div:nth-child(2) {
+    flex: none;
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 601px) {
+  .intro .image-others {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro .image-others > div:nth-child(1) {
+    flex: none;
+    width: 70%;
+  }
+
+  .intro .image-others .circles {
+    flex: none;
+    margin-bottom: 100px;
+  }
+}

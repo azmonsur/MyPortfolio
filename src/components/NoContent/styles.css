@@ -1,0 +1,5 @@
+.no-content-wrapper {
+  font-style: italic;
+  color: var(--danger);
+  font-size: 0.9rem;
+}
