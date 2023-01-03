@@ -131,6 +131,10 @@
   .projects-wrapper .section-main-content .each-category {
     padding: 0 50px;
   }
+
+  .projects-wrapper .section-main-content {
+    padding: 0 50px;
+  }
 }
 
 @media (max-width: 601px) {
@@ -138,13 +142,21 @@
     grid-template-columns: 1fr;
   }
 
-  .projects-wrapper .section-main-content .each-category {
-    padding: 0 90px;
+  .projects-wrapper .section-main-content {
+    padding: 0 30px;
+  }
+
+  .projects-wrapper .section-main-content .each-card-wrapper {
+    width: 90%;
   }
 }
 
 @media (max-width: 400px) {
   .projects-wrapper .section-main-content .each-category {
     padding: 0 20px;
+  }
+
+  .projects-wrapper .section-main-content {
+    padding: 0 0px;
   }
 }
