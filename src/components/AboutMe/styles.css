@@ -19,6 +19,38 @@
   font-size: 0.7rem;
 }
 
+@keyframes rotateF {
+  0% {
+    transform: rotateZ(30deg) scale(0.9);
+  }
+
+  /* 25% {
+    transform: rotateZ(0deg) scale(0.9);
+  } */
+
+  50% {
+    transform: rotateZ(0deg) scale(0.9);
+  }
+
+  /* 75% {
+    transform: rotateZ(360deg) scale(0.9);
+  } */
+
+  100% {
+    transform: rotateZ(-30deg) scale(0.9);
+  }
+}
+
+@keyframes rotateR {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
 .about .circles > div:nth-child(1) {
   background-color: var(--grey);
 }
@@ -43,4 +75,5 @@
   align-items: center;
   padding: 10px;
   text-align: center;
+  animation: rotateF 2s alternate infinite;
 }

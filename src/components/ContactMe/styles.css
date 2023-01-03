@@ -83,6 +83,15 @@
   padding: 8px 10px;
   border-radius: 5px;
   cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.contacts-wrapper
+  .section-main-content
+  .each-card-wrapper
+  .send-message
+  button:hover {
+  background-color: var(--off-white);
 }
 
 /*=========================================================MEDIA QUERY====================================================*/

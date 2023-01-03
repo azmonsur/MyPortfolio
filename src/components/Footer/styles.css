@@ -31,4 +31,9 @@
   font-size: 2rem;
   width: 10px;
   height: 10px;
+  transition: all 0.3s linear;
+}
+
+.footer .socials .social-wrapper a:hover {
+  color: var(--off-white);
 }

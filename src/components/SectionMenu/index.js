@@ -1,6 +1,9 @@
 import React from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
+import { RiServiceLine } from "react-icons/ri";
+import { AiOutlineContacts } from "react-icons/ai";
+import { GoProject } from "react-icons/go";
 
 import "./styles.css";
 
@@ -16,13 +19,13 @@ const SectionMenu = () => {
         </a>
 
         <a href="#services" className="services">
-          <AiOutlineHome />
+          <RiServiceLine />
         </a>
         <a href="#projects" className="projects">
-          <AiOutlineHome />
+          <GoProject />
         </a>
         <a href="#contact" className="socials">
-          <AiOutlineHome />
+          <AiOutlineContacts />
         </a>
       </div>
     </div>

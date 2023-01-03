@@ -11,6 +11,38 @@
   row-gap: 50px;
 }
 
+.portfolio-container .main-body .services,
+.portfolio-container .main-body .projects,
+.portfolio-container .main-body .experience,
+.portfolio-container .main-body .contact,
+.portfolio-container .main-body .about {
+  animation: comeIn 3s linear;
+}
+
+.portfolio-container .main-body .intro {
+  animation: comeOut 2s linear;
+}
+
+@keyframes comeIn {
+  0% {
+    transform: translateY(-1000px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes comeOut {
+  0% {
+    transform: translateY(1000px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 .portfolio-container .background {
   background-image: url("/public/images/bg1.jpg");
   background-size: contain;

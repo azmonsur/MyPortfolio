@@ -3,12 +3,13 @@ import Projects from "../Projects";
 import SectionMenu from "../SectionMenu";
 import Intro from "../Intro";
 
-import "./styles.css";
 import Experience from "../Experience";
 import Services from "../Services";
 import Contacts from "../ContactMe";
 import Footer from "../Footer";
 import AboutMe from "../AboutMe";
+
+import "./styles.css";
 
 const MyPortfolio = () => {
   return (
