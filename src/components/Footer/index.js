@@ -43,7 +43,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="nick">
-        TheTechGuy<sup>&trade;</sup>
+        TheTechGuy<sup> &trade;</sup>
       </div>
       <div className="socials">
         {socials.length === 0 ? (
