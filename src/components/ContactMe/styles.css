@@ -65,10 +65,10 @@
   display: block;
   margin-bottom: 10px;
   background-color: transparent;
-  color: var(--grey);
+  color: var(--off-white);
   padding: 10px 15px;
-  font-family: cursive;
-  font-size: 0.9rem;
+
+  font-size: 0.85rem;
   width: 100%;
 }
 
