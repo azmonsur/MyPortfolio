@@ -128,10 +128,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .projects-wrapper .section-main-content .each-category {
-    padding: 0 50px;
-  }
-
   .projects-wrapper .section-main-content {
     padding: 0 50px;
   }
@@ -145,10 +141,6 @@
   .projects-wrapper .section-main-content {
     padding: 0 30px;
   }
-
-  .projects-wrapper .section-main-content .each-card-wrapper {
-    width: 90%;
-  }
 }
 
 @media (max-width: 400px) {
@@ -157,6 +149,7 @@
   }
 
   .projects-wrapper .section-main-content {
-    padding: 0 0px;
+    padding: 0;
+    margin: auto;
   }
 }
