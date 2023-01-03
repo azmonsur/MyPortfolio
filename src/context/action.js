@@ -48,6 +48,18 @@ export const getContacts = () => async (dispatch) => {
   return contacts;
 };
 
+export const getSocials = () => async (dispatch) => {
+  let socials = await fetch("/../../data/socials.json");
+  socials = await socials.json();
+
+  dispatch({
+    type: ATS.GET_SOCIALS,
+    payload: socials,
+  });
+
+  return socials;
+};
+
 export const toggleLoading = () => (dispatch) => {
   dispatch({
     type: ATS.TOGGLE_LOADING,

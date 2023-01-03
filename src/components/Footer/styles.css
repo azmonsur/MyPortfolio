@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 0px 60px 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--accent);
+  margin-top: 80px !important;
+}
+
+.footer .nick {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.footer .copyright {
+  margin-top: 10px;
+}
+
+.footer .socials .social-wrapper {
+  display: flex;
+  column-gap: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer .socials .social-wrapper a {
+  display: block;
+  font-size: 2rem;
+  width: 10px;
+  height: 10px;
+}

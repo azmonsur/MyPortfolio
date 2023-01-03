@@ -8,6 +8,7 @@ const initialState = {
   services: [],
   experience: [],
   contacts: [],
+  socials: [],
   error: null,
   loading: false,
 };
@@ -26,6 +27,7 @@ export const GlobalProvider = ({ children }) => {
         services: state.services,
         experience: state.experience,
         contacts: state.contacts,
+        socials: state.socials,
         error: state.error,
         loading: state.loading,
         dispatch,

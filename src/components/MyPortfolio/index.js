@@ -7,6 +7,8 @@ import "./styles.css";
 import Experience from "../Experience";
 import Services from "../Services";
 import Contacts from "../ContactMe";
+import Footer from "../Footer";
+import AboutMe from "../AboutMe";
 
 const MyPortfolio = () => {
   return (
@@ -17,10 +19,12 @@ const MyPortfolio = () => {
           <SectionMenu />
         </div>
         <div className="main-body">
-          <div id="about" className="intro">
+          <div id="home" className="intro">
             <Intro />
           </div>
-
+          <div id="about" className="about">
+            <AboutMe />
+          </div>
           <div id="experience" className="experience">
             <Experience />
           </div>
@@ -34,8 +38,9 @@ const MyPortfolio = () => {
           <div id="contact" className="contact">
             <Contacts />
           </div>
-
-          <div className="footer"></div>
+        </div>
+        <div className="footer">
+          <Footer />
         </div>
       </div>
     </div>

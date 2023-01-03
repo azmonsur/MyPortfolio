@@ -14,13 +14,14 @@ const SectionMenu = () => {
         <a href="#about" className="about">
           <AiOutlineUser />
         </a>
-        <a href="#projects" className="projects">
-          <AiOutlineHome />
-        </a>
+
         <a href="#services" className="services">
           <AiOutlineHome />
         </a>
-        <a href="#socials" className="socials">
+        <a href="#projects" className="projects">
+          <AiOutlineHome />
+        </a>
+        <a href="#contact" className="socials">
           <AiOutlineHome />
         </a>
       </div>

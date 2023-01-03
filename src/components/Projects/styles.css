@@ -1,5 +1,9 @@
 .projects-wrapper .section-main-content {
   margin-top: 20px;
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
 .projects-wrapper .section-main-content .each-card-wrapper {
@@ -13,7 +17,6 @@
 
   column-gap: 25px;
   row-gap: 25px;
-  padding: 0 150px;
 }
 
 .projects-wrapper .section-main-content .each-category h6 {
@@ -108,6 +111,15 @@
   span:nth-child(2) {
   font-size: 0.65rem;
   color: var(--grey);
+}
+
+.projects-wrapper .section-main-content .load-more {
+  text-align: center;
+  background-color: var(--secondary);
+  color: var(--accent);
+  padding: 5px 0;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 /*=========================================================MEDIA QUERY====================================================*/

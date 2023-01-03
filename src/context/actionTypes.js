@@ -4,3 +4,4 @@ export const GET_EXPERIENCE = "GET_EXPERIENCE";
 export const GET_SERVICES = "GET_SERVICES";
 export const GET_PROJECTS = "GET_PROJECTS";
 export const GET_CONTACTS = "GET_CONTACTS";
+export const GET_SOCIALS = "GET_SOCIALS";

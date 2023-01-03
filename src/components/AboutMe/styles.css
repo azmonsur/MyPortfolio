@@ -1,0 +1,46 @@
+.about .circles {
+  position: relative;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.about .circles .outer-circle {
+  width: 20vh;
+  height: 20vh;
+  background-color: var(--grey);
+  border-radius: 50%;
+  position: absolte !important;
+  font-size: 0.7rem;
+}
+
+.about .circles > div:nth-child(1) {
+  background-color: var(--grey);
+}
+
+.about .circles > div:nth-child(2) {
+  transform: scale(1.2);
+  background-color: var(--danger);
+}
+
+.about .circles > div:nth-child(3) {
+  background-color: var(--grey);
+}
+
+.about .circles .inner-circle {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+  border-radius: 50%;
+  transform: scale(0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}

@@ -26,6 +26,12 @@ const reducer = (state, action) => {
         contacts: action.payload,
       };
 
+    case ATS.GET_SOCIALS:
+      return {
+        ...state,
+        socials: action.payload,
+      };
+
     case ATS.TOGGLE_LOADING:
       return {
         ...state,

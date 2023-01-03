@@ -1,0 +1,28 @@
+.wrapper-message {
+  height: 42;
+  border-radius: 4;
+  padding: 5px;
+  text-align: center;
+  font-size: 0.76rem;
+  color: var(--off-white);
+  margin-top: 15px;
+}
+
+.close {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--danger);
+}
+
+.message {
+  width: 100%;
+  position: absoute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50% -50%);
+  text-align: center;
+}

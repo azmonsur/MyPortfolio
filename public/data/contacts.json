@@ -1,4 +1,12 @@
 [
-  { "name": "WhatsApp", "address": "+2348032329197" },
-  { "name": "Email", "address": "monsur.koa@gmail.com" }
+  {
+    "name": "WhatsApp",
+    "address": "+2348032329197",
+    "link": "https://api.whatsapp.com/send?phone=2348032329197"
+  },
+  {
+    "name": "Email",
+    "address": "monsur.koa@gmail.com",
+    "link": "monsur.koa@gmail.com"
+  }
 ]

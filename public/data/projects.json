@@ -15,7 +15,7 @@
     "desc": "A chatting app built with socket.io and Nodejs",
     "img": "chatly.jpeg",
     "type": "Web Software",
-    "github_link": "",
+    "github_link": "https://github.com/azmonsur/ChatBean/tree/master",
     "other_link": "",
     "complete": true
   },
@@ -25,7 +25,7 @@
     "desc": "Data science project that analysis data extracted from a forum site",
     "img": "nairaland360.jpeg",
     "type": "Data science",
-    "github_link": "",
+    "github_link": "https://github.com/azmonsur/Nairaland360/tree/master",
     "other_link": "",
     "complete": true
   },
@@ -35,7 +35,7 @@
     "desc": "A data science project to detect outliers in a given dataset",
     "img": "outlier_detector.jpeg",
     "type": "Data Analysis",
-    "github_link": "",
+    "github_link": "https://github.com/azmonsur/Outlier-Detector/tree/master",
     "other_link": "",
     "complete": true
   },
