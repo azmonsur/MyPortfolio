@@ -6,7 +6,7 @@
     "img": "lms.jpeg",
     "type": "Web Software",
     "github_link": "",
-    "other_link": "",
+    "other_link": "https://laundryerp.netlify.app",
     "complete": true
   },
   {
@@ -42,11 +42,11 @@
   {
     "id": 2,
     "name": "Resume Scanner",
-    "desc": "",
-    "img": "lms.jpeg",
+    "desc": "This is a web-based Resume scanner that uses AI to scan documents for a query prompt",
+    "img": "resume_scanner.jpeg",
     "type": "Web Software",
-    "github_link": "",
-    "other_link": "",
-    "complete": false
+    "github_link": "https://github.com/azmonsur/ResumeScanner/tree/master",
+    "other_link": "https://docsscanner.netlify.app/",
+    "complete": true
   }
 ]

@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect, useRef } from "react";
 import { GlobalContext } from "../../context/store";
 import { BsWhatsapp } from "react-icons/bs";
+import { BsMessenger } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import Message from "../Message";
 import emailjs from "emailjs-com";
@@ -31,6 +32,8 @@ const Contacts = () => {
         return <MdOutlineEmail />;
       case "whatsapp":
         return <BsWhatsapp />;
+      case "messanger":
+        return <BsMessenger />;
       default:
         return null;
     }

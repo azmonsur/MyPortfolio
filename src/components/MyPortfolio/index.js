@@ -10,6 +10,7 @@ import Footer from "../Footer";
 import AboutMe from "../AboutMe";
 
 import "./styles.css";
+import Testimonial from "../Testimonials";
 
 const MyPortfolio = () => {
   return (
@@ -35,7 +36,9 @@ const MyPortfolio = () => {
           <div id="projects" className="projects">
             <Projects />
           </div>
-          <div id="testimonial" className="testimonial"></div>
+          <div id="testimonial" className="testimonial">
+            {/* <Testimonial /> */}
+          </div>
           <div id="contact" className="contact">
             <Contacts />
           </div>
