@@ -34,22 +34,55 @@
   color: rgba(197, 191, 191, 0.5);
 }
 
-.intro .more-details .cv {
-  margin-top: 10px;
+.intro .more-details .cv-area {
   display: flex;
-  column-gap: 10px;
+  justify-content: baseline;
+  align-items: baseline;
+  position: relative;
+  cursor: pointer;
+  border: solid 1px var(--secondary);
+  border-radius: 5px;
+  margin-top: 10px;
+
+  transition: all 0.7s linear;
+}
+
+.intro .more-details .cv {
+  padding: 2px 5px;
   font-size: 0.9rem;
 }
 
-.intro .more-details .cv > div {
-  border: solid 1px var(--primary);
-  border-radius: 5px;
+.intro .more-details .cv-area ul {
+  display: none;
+  position: absolute;
+  margin-top: 25px;
+  background-color: var(--transparent-dark);
+  width: 100%;
+  z-index: 10000;
+}
+
+.intro .more-details .cv-area ul li {
+  list-style-type: none;
+  font-size: 0.8rem;
+  margin: 0 auto;
+}
+
+.intro .more-details .cv-area ul a {
+  display: block;
+  border-bottom: solid 0.5px var(--gray);
   padding: 5px 10px;
 }
 
-.intro .more-details .cv > div:hover {
-  border: solid 1px var(--danger);
+.intro .more-details .cv-area ul li:hover {
   color: var(--danger);
+}
+
+.intro .more-details .cv-area ul a:last-child {
+  border: none;
+}
+
+.intro .more-details .cv-area:hover .test {
+  display: block;
 }
 
 .intro .image-others {

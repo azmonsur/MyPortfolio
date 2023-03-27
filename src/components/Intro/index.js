@@ -1,4 +1,5 @@
 import React from "react";
+import { MdOutlineArrowDropDown } from "react-icons/md";
 
 import "./styles.css";
 
@@ -14,13 +15,19 @@ const Intro = () => {
             <span> | Data Scientist </span>
           </div>
           <div>
-            <a
-              className="cv"
-              href="\pdf\Azeez_Monsur_Resume.pdf"
-              download={true}
-            >
-              <div>Download CV</div>
-            </a>
+            <div className="cv-area">
+              <div className="cv">
+                Download CV <MdOutlineArrowDropDown size={20} />{" "}
+              </div>
+              <ul className="test">
+                <a href="\pdf\se_Azeez_Monsur_Resume.pdf" download={true}>
+                  <li>Fullstack Dev</li>
+                </a>
+                <a href="\pdf\ds_Azeez_Monsur_Resume.pdf" download={true}>
+                  <li>Data Science</li>
+                </a>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="image-others">

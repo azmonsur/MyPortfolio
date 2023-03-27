@@ -42,7 +42,7 @@
   {
     "id": 2,
     "name": "Resume Scanner",
-    "desc": "This is a web-based Resume scanner that uses AI to scan documents for a query prompt",
+    "desc": "This is a web-based Resume Scanner that uses AI to scan documents for a query prompt",
     "img": "resume_scanner.jpeg",
     "type": "Web Software",
     "github_link": "https://github.com/azmonsur/ResumeScanner/tree/master",
