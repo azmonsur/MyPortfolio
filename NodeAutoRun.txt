@@ -1,0 +1,19 @@
+1. Install PM2 (Process manager 2) globally using npm 
+npm install pm2 -g
+
+2. Install pm2-windows-startup globally using npm 
+npm install pm2-windows-startup -g
+
+3. Configure pm2-startup 
+pm2-startup install
+
+4. Navigate to the folder where the node js script you want to start automatically is
+i.e E:/location/of/the/file/
+start cmd from the folder
+and run
+pm2 --no-daemon start [name of the file, e.g server.js]
+
+5. Save the current list of processes execute so that they can start on startup
+pm2 save
+
+*****boom. Node server will automatically start when you restart your PC running all the processes you started with pm2
